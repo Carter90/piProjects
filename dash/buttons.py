@@ -10,8 +10,7 @@ config.read('macAddress.conf')
 
 cheezit = 	config.get('Buttons','cheezit')
 goldfish =	config.get('Buttons','goldfish')
-gaderiad = 	config.get('Buttons','gaderiad')
-
+gaderiad = 	config.get('Buttons','gatorade')
 
 def arp_detect(pkt):
 		if pkt[ARP].op == 1: #network request
@@ -20,7 +19,7 @@ def arp_detect(pkt):
 			if pkt[ARP].hwsrc == goldfish:
 				print("goldfish")
 			if pkt[ARP].hwsrc == gaderiad:
-				print("gaderiad")
+				print("gatorade")
 
 sniff(prn=arp_detect, filter="arp", store=0)
 
