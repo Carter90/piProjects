@@ -1,9 +1,9 @@
+T
 F
 F
 F
 F
 F
 F
-F
-F
-Start
+T
+go
