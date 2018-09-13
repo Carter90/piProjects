@@ -1,0 +1,12 @@
+[Relays]
+gpioPins = 2, 3, 4, 17, 27, 22, 10, 9
+fans = 1,7
+lights = 2,6
+
+[Buttons]
+cheezit  = 	00:00:00:00:00:00, fans
+goldfish =	00:00:00:00:00:00, fans
+gatorade = 	00:00:00:00:00:00, fans
+
+[Swiches]
+gpioPins = 1, 5
