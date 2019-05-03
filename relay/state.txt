@@ -1,9 +1,0 @@
-white light :: 0
-12v fan 	:: 1
-not used 	:: 0
-not used 	:: 0
-not used 	:: 0
-not used 	:: 0
-red light 	:: 0
-110v fan 	:: 1
-go
